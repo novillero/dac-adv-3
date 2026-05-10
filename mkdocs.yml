@@ -1,0 +1,140 @@
+site_name: Docs as code advanced course # Название сайта
+site_description: Docs by parawriter # Описание сайта, добавляется в meta-теги
+theme: # Тема сайта, информация о ее параметрах
+  variant: classic
+  name: material # Название темы
+  logo: images/logo.svg
+  favicon: images/logo.svg
+  font:
+    text: Arial # Шрифт текста
+    code: Roboto Mono # Шрифт для текста кода
+  features:
+    #- navigation.sections
+    - navigation.indexes # Позволяет создавать корневые страницы разделов меню. Корневая страница должна лежать в папке раздела и называться index.md. Пример использования корневых страниц приведен ниже в настройках nav
+    - navigation.tabs # Верхнее меню
+    - navigation.tabs.sticky # Фиксация верхнего меню
+    #- navigation sections # Настройка спойлеров в левом меню
+    #- navigation.expand # Разворачивает спойлеры в левом меню по умолчанию
+    #- toc.integrate # Фиксирует оглавление страницы в левом меню
+    - navigation.instant # Функция быстрой загрузки страниц
+    - navigation.top # Добавляет кнопку «к началу» для быстрой обратной прокрутки страницы
+    - search.suggest # Подсказки при вводе поискового запроса
+    - search.highlight # Подсветка результатов поиска в тексте страницы
+    - content.code.copy # Кнопка копирования в блоке кода
+   #- task-lists # чекбоксы
+
+  language: ru # Язык
+  palette: # Настройки тем
+    - scheme: tech
+#      toggle:
+#        icon: material/weather-sunny # Иконка для активации светлой темы
+#        name: Выключить солнышко # Всплывающий текст-подсказка
+    # Настройки светлой темы
+#    - scheme: default 
+#      toggle:
+#        icon: material/weather-sunny # Иконка для активации светлой темы
+#        name: Выключить солнышко # Всплывающий текст-подсказка
+#      primary: custom # Основной цвет
+#      accent: blue # Акцентный цвет
+    # Настройки тёмной темы
+#    - scheme: slate
+#      toggle:
+#        icon: material/weather-night
+#        name: Позвать солнышко
+#      primary: custom
+#      accent: blue
+
+plugins:
+  - search
+  - glightbox
+  - tags:
+      tags_allowed:
+      - task 
+      - help 
+      - manual
+      - git
+      - pet-project 
+      - markdown
+  - swagger-ui-tag
+  - redoc-tag
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+      theme:
+        enabled: false
+   
+nav: # Структура сайта
+    - Материалы курса:
+      - index.md
+      - 'Markdown: базовый синтаксис': markdown.md
+#      - 'Markdown: расширенный синтаксис': markdown-extensions.md
+#      - Тех.минимум по git: git-for-tech-writer.md
+      - Вебинары: meetings.md
+      - Домашние задания:
+        - Домашнее задание №0: homeworks/homework-0.md
+        - Домашнее задание N1: homeworks/homework-1.md
+#        - Домашнее задание N2: homeworks/homework-2.md
+#        - Домашнее задание №3: homeworks/homework-3.md
+#        - Домашнее задание N4: homeworks/homework-4.md
+#        - Домашнее задание N5: homeworks/homework-5.md
+#        - Домашнее задание N6: homeworks/homework-6.md
+#      - Кросс-ревью:
+#        - Как проводить ревью: review/how-to.md
+#        - Стайлгайд для пошаговых инструкций: review/styleguide.md
+#    - Домашний проект:
+#      - pet-project/index.md
+#      - Настройка MkDocs: pet-project/mkdocs-setup.md
+#      - Подключение плагинов MkDocs: pet-project/mkdocs-plugins.md
+#      - Публикация MkDocs: pet-project/mkdocs-publication.md
+#      - Подключение OpenAPI: pet-project/api-add.md
+#      - Добавление диаграмм PlantUML: pet-project/plant-uml.md
+#      - Кастомизация стилей MkDocs: pet-project/mkdocs-css.md
+#      - Единый источник в MkDocs: pet-project/snippets.md
+#      - 'Примеры доки: приложение Нотсапп':
+#        - Спецификация приложения: pet-project/notesapp/specification.md
+#        - Сценарий «Создание новой заметки»: pet-project/notesapp/scenario-1.md
+#        - API Specification Swagger: pet-project/notesapp/swagger.md
+#        - API Specification Redoc: pet-project/notesapp/redoc.md
+
+extra:
+  social: # Ссылки на соц.сети
+    - icon: fontawesome/brands/github-alt # Иконка гитхаба
+      link: https://github.com/novillero/dac-adv-2 # Ссылка на гитхаб
+  navbar:
+    - html: '<a href="https://example.com"><img src="images/banner.jpg" alt="Banner" style="width:50%;" /></a>'
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions: # Расширения markdown
+  - md_in_html # Поддержка markdown внутри html
+  - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
+  - footnotes # Поддержка встроенных сносок на страницах
+  - attr_list # Использование html-атрибутов и CSS в элементах markdown
+  - def_list # Поддержка списков определений
+  - pymdownx.tabbed: # Использование вкладок (табов)
+      alternate_style: true
+  - pymdownx.details # Использование спойлеров (катов)
+  - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
+      anchor_linenums: true
+  - pymdownx.superfences: # Поддержка вложенных блоков кода
+      custom_fences:
+        - name: raw
+          class: raw
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets: # Использование заимствованного контента
+      base_path:
+        - docs
+      check_paths: false
+  - pymdownx.caret # Использование выделения, подчеркивания и зачеркивания
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.blocks.html
+  - pymdownx.emoji: # Иконки и эмодзи
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+copyright: |
+  &copy; 2026 Novillero
