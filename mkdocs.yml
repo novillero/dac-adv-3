@@ -67,12 +67,12 @@ nav: # Структура сайта
       - index.md
       - 'Markdown: базовый синтаксис': markdown.md
 #      - 'Markdown: расширенный синтаксис': markdown-extensions.md
-#      - Тех.минимум по git: git-for-tech-writer.md
+      - Тех.минимум по git: git-for-tech-writer.md
       - Вебинары: meetings.md
       - Домашние задания:
         - Домашнее задание №0: homeworks/homework-0.md
         - Домашнее задание N1: homeworks/homework-1.md
-#        - Домашнее задание N2: homeworks/homework-2.md
+        - Домашнее задание N2: homeworks/homework-2.md
 #        - Домашнее задание №3: homeworks/homework-3.md
 #        - Домашнее задание N4: homeworks/homework-4.md
 #        - Домашнее задание N5: homeworks/homework-5.md
