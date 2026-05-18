@@ -41,4 +41,4 @@
 ---
 
 * Скачать [презентацию](./original-docs/meeting-2.pdf){target=_blank}.
-<!--* Посмотреть [запись встречи](https://disk.yandex.ru/i/FdLxhkzwOsL__Q){target=_blank}.-->
+* Посмотреть [запись встречи](https://disk.yandex.ru/i/27GrLMGpGwRBdQ){target=_blank}.
