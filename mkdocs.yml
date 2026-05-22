@@ -66,7 +66,7 @@ nav: # Структура сайта
     - Материалы курса:
       - index.md
       - 'Markdown: базовый синтаксис': markdown.md
-#      - 'Markdown: расширенный синтаксис': markdown-extensions.md
+      - 'Markdown: расширенный синтаксис': markdown-extensions.md
       - Тех.минимум по git: git-for-tech-writer.md
       - Вебинары: meetings.md
       - Домашние задания:
@@ -74,7 +74,7 @@ nav: # Структура сайта
         - Домашнее задание N1: homeworks/homework-1.md
         - Домашнее задание N2: homeworks/homework-2.md
         - Домашнее задание №3: homeworks/homework-3.md
-#        - Домашнее задание N4: homeworks/homework-4.md
+        - Домашнее задание N4: homeworks/homework-4.md
 #        - Домашнее задание N5: homeworks/homework-5.md
 #        - Домашнее задание N6: homeworks/homework-6.md
       - Кросс-ревью:
@@ -83,8 +83,8 @@ nav: # Структура сайта
     - Домашний проект:
       - pet-project/index.md
       - Настройка MkDocs: pet-project/mkdocs-setup.md
-#      - Подключение плагинов MkDocs: pet-project/mkdocs-plugins.md
-#      - Публикация MkDocs: pet-project/mkdocs-publication.md
+      - Подключение плагинов MkDocs: pet-project/mkdocs-plugins.md
+      - Публикация MkDocs: pet-project/mkdocs-publication.md
 #      - Подключение OpenAPI: pet-project/api-add.md
 #      - Добавление диаграмм PlantUML: pet-project/plant-uml.md
 #      - Кастомизация стилей MkDocs: pet-project/mkdocs-css.md
