@@ -89,9 +89,9 @@ nav: # Структура сайта
 #      - Добавление диаграмм PlantUML: pet-project/plant-uml.md
 #      - Кастомизация стилей MkDocs: pet-project/mkdocs-css.md
 #      - Единый источник в MkDocs: pet-project/snippets.md
-#      - 'Примеры доки: приложение Нотсапп':
-#        - Спецификация приложения: pet-project/notesapp/specification.md
-#        - Сценарий «Создание новой заметки»: pet-project/notesapp/scenario-1.md
+      - 'Примеры доки: приложение Нотсапп':
+        - Спецификация приложения: pet-project/notesapp/specification.md
+        - Сценарий «Создание новой заметки»: pet-project/notesapp/scenario-1.md
 #        - API Specification Swagger: pet-project/notesapp/swagger.md
 #        - API Specification Redoc: pet-project/notesapp/redoc.md
 
