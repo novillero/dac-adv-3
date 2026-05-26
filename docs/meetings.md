@@ -57,7 +57,7 @@
 * Посмотреть [запись встречи](https://disk.yandex.ru/i/YjaG5pWFSfxnMQ){target=_blank}.
 
 ---
-<!--
+
 #### Вебинар №4 «Публикация и развитие док.проекта»
 
 1. Работа с плагинами.
@@ -125,6 +125,6 @@
     * [Кастомизация стилей MkDocs](./pet-project/mkdocs-css.md)
     * [Единый источник в MkDocs](./pet-project/snippets.md)
 
-* Посмотреть [запись встречи](https://disk.yandex.ru/i/dWO0xnXhdn2MfQ){target=_blank}.
+* Посмотреть [запись встречи](https://disk.yandex.ru/i/mNHZZ-d4T4o5FA){target=_blank}.
 
 -->

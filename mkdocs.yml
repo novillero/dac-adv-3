@@ -75,7 +75,7 @@ nav: # Структура сайта
         - Домашнее задание N2: homeworks/homework-2.md
         - Домашнее задание №3: homeworks/homework-3.md
         - Домашнее задание N4: homeworks/homework-4.md
-#        - Домашнее задание N5: homeworks/homework-5.md
+        - Домашнее задание N5: homeworks/homework-5.md
 #        - Домашнее задание N6: homeworks/homework-6.md
       - Кросс-ревью:
         - Как проводить ревью: review/how-to.md
@@ -85,15 +85,15 @@ nav: # Структура сайта
       - Настройка MkDocs: pet-project/mkdocs-setup.md
       - Подключение плагинов MkDocs: pet-project/mkdocs-plugins.md
       - Публикация MkDocs: pet-project/mkdocs-publication.md
-#      - Подключение OpenAPI: pet-project/api-add.md
-#      - Добавление диаграмм PlantUML: pet-project/plant-uml.md
+      - Подключение OpenAPI: pet-project/api-add.md
+      - Добавление диаграмм PlantUML: pet-project/plant-uml.md
 #      - Кастомизация стилей MkDocs: pet-project/mkdocs-css.md
 #      - Единый источник в MkDocs: pet-project/snippets.md
       - 'Примеры доки: приложение Нотсапп':
         - Спецификация приложения: pet-project/notesapp/specification.md
         - Сценарий «Создание новой заметки»: pet-project/notesapp/scenario-1.md
-#        - API Specification Swagger: pet-project/notesapp/swagger.md
-#        - API Specification Redoc: pet-project/notesapp/redoc.md
+        - API Specification Swagger: pet-project/notesapp/swagger.md
+        - API Specification Redoc: pet-project/notesapp/redoc.md
 
 extra:
   social: # Ссылки на соц.сети
