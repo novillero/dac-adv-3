@@ -36,10 +36,6 @@ markdown_extensions: # Расширения markdown
 !!! note "Пример"
     \--8<-- "docs/homeworks/homework-1.md"
 
-
-??? quote "Как это выглядит"
-    --8<-- "docs/homeworks/homework-1.md"
-
 !!! info "Важно!" 
     В разметке указывается абсолютный путь до файла. Отправная точка — корень проекта.
 
@@ -76,9 +72,6 @@ markdown_extensions: # Расширения markdown
 
 !!! note "Добавленный фрагмент"
     \--8<-- "meetings.md:git"
-
-??? quote "Как это выглядит"
-    --8<-- "meetings.md:git"
 
 ### Использование ресурсного файла
 
