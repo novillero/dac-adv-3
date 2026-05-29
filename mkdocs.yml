@@ -122,8 +122,6 @@ markdown_extensions: # Расширения markdown
           class: raw
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.snippets: # Использование заимствованного контента
-      base_path:
-        - docs
       check_paths: false
   - pymdownx.caret # Использование выделения, подчеркивания и зачеркивания
   - pymdownx.mark
