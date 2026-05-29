@@ -100,11 +100,11 @@
     * [API Specification Swagger](./pet-project/notesapp/swagger.md)
     * [API Specification Redoc](./pet-project/notesapp/redoc.md)
 
-* Посмотреть [запись встречи](https://disk.yandex.ru/i/lCW15op8-0rz1Q){target=_blank}.
+* Посмотреть [запись встречи](https://disk.yandex.ru/i/oxyFQ68sWroBbg){target=_blank}.
 
 ---
 
-#### Вебинар №6 «Настройка стилей док.проекта и использование единого источника»
+<!--#### Вебинар №6 «Настройка стилей док.проекта и использование единого источника»
 
 1. Настройка стилей
 

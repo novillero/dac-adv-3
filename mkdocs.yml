@@ -76,7 +76,7 @@ nav: # Структура сайта
         - Домашнее задание №3: homeworks/homework-3.md
         - Домашнее задание N4: homeworks/homework-4.md
         - Домашнее задание N5: homeworks/homework-5.md
-#        - Домашнее задание N6: homeworks/homework-6.md
+        - Домашнее задание N6: homeworks/homework-6.md
       - Кросс-ревью:
         - Как проводить ревью: review/how-to.md
         - Стайлгайд для пошаговых инструкций: review/styleguide.md
@@ -87,8 +87,8 @@ nav: # Структура сайта
       - Публикация MkDocs: pet-project/mkdocs-publication.md
       - Подключение OpenAPI: pet-project/api-add.md
       - Добавление диаграмм PlantUML: pet-project/plant-uml.md
-#      - Кастомизация стилей MkDocs: pet-project/mkdocs-css.md
-#      - Единый источник в MkDocs: pet-project/snippets.md
+      - Кастомизация стилей MkDocs: pet-project/mkdocs-css.md
+      - Единый источник в MkDocs: pet-project/snippets.md
       - 'Примеры доки: приложение Нотсапп':
         - Спецификация приложения: pet-project/notesapp/specification.md
         - Сценарий «Создание новой заметки»: pet-project/notesapp/scenario-1.md
